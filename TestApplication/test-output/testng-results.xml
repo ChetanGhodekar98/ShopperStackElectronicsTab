@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[EXECUATION STARTED-> login]]>
+    </line>
+    <line>
+      <![CDATA[EXECUATION DONE SUCCESSFULLY-> login]]>
+    </line>
+    <line>
+      <![CDATA[EXECUATION STARTED-> TestCase]]>
+    </line>
+    <line>
+      <![CDATA[EXECUATION DONE SUCCESSFULLY-> TestCase]]>
+    </line>
+    <line>
+      <![CDATA[EXECUATION STARTED-> TestCase_13]]>
+    </line>
+    <line>
+      <![CDATA[EXECUATION DONE SUCCESSFULLY-> TestCase_13]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-28T09:25:13 IST" name="SS_Electronics_38" finished-at="2024-03-28T09:25:56 IST" duration-ms="42887">
+    <groups>
+    </groups>
+    <test started-at="2024-03-28T09:25:13 IST" name="SS_Electronics_38" finished-at="2024-03-28T09:25:56 IST" duration-ms="42887">
+      <class name="Util.SS_Electronics_38_Test">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Util.SS_Electronics_38_Test@3646a422]" started-at="2024-03-28T09:25:13 IST" name="launchApplication" finished-at="2024-03-28T09:25:18 IST" duration-ms="4642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="login()[pri:0, instance:Util.SS_Electronics_38_Test@3646a422]" started-at="2024-03-28T09:25:18 IST" name="login" finished-at="2024-03-28T09:25:30 IST" duration-ms="11837" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[EXECUATION STARTED-> login]]>
+            </line>
+            <line>
+              <![CDATA[EXECUATION DONE SUCCESSFULLY-> login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="TestCase()[pri:0, instance:Util.SS_Electronics_38_Test@3646a422]" started-at="2024-03-28T09:25:30 IST" name="TestCase" finished-at="2024-03-28T09:25:49 IST" depends-on-methods="SS_Login_01.LoginTextCase_Test.login" duration-ms="19487" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[EXECUATION STARTED-> TestCase]]>
+            </line>
+            <line>
+              <![CDATA[EXECUATION DONE SUCCESSFULLY-> TestCase]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+        <test-method signature="TestCase_13()[pri:0, instance:Util.SS_Electronics_38_Test@3646a422]" started-at="2024-03-28T09:25:49 IST" name="TestCase_13" finished-at="2024-03-28T09:25:56 IST" depends-on-methods="Util.SS_Electronics_Test.TestCase" duration-ms="6484" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[EXECUATION STARTED-> TestCase_13]]>
+            </line>
+            <line>
+              <![CDATA[EXECUATION DONE SUCCESSFULLY-> TestCase_13]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_13 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:Util.SS_Electronics_38_Test@3646a422]" started-at="2024-03-28T09:25:56 IST" name="closeApplication" finished-at="2024-03-28T09:25:56 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Util.SS_Electronics_38_Test -->
+    </test> <!-- SS_Electronics_38 -->
+  </suite> <!-- SS_Electronics_38 -->
+</testng-results>

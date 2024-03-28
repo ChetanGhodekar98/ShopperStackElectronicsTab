@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SS_Electronics_From_16_To32">
+<listeners>
+<listener class-name="ProjectListners.ShopperStackListners"></listener>
+</listeners>
+  <test thread-count="5" name="SS_Electronics_From_16_To32">
+    <classes>
+	  <class name="Util.SS_Electronics_16_Test"/>
+      <class name="Util.SS_Electronics_17_Test"/>
+      <class name="Util.SS_Electronics_18_Test"/>
+      <class name="Util.SS_Electronics_19_Test"/>
+      <class name="Util.SS_Electronics_20_Test"/>
+      <class name="Util.SS_Electronics_21_Test"/>
+      <class name="Util.SS_Electronics_22_Test"/>
+      <class name="Util.SS_Electronics_23_Test"/>
+      <class name="Util.SS_Electronics_24_Test"/>
+      <class name="Util.SS_Electronics_25_Test"/>
+      <class name="Util.SS_Electronics_26_Test"/>
+      <class name="Util.SS_Electronics_27_Test"/>
+      <class name="Util.SS_Electronics_28_Test"/>
+      <class name="Util.SS_Electronics_29_Test"/>
+      <class name="Util.SS_Electronics_30_Test"/>
+      <class name="Util.SS_Electronics_31_Test"/>
+      <class name="Util.SS_Electronics_32_Test"/>
+    </classes>
+  </test> <!-- SS_Electronics_From_16_To32 -->
+</suite> <!-- SS_Electronics_From_16_To32 -->
