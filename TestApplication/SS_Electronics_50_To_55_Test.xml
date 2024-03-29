@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SS_Electronics_50_To_55">
+<listeners>
+<listener class-name="ProjectListners.ShopperStackListners"></listener>
+</listeners>
+
+  <test thread-count="5" name="SS_Electronics_50_To_55">
+    <classes>
+      <class name="Util.SS_Electronics_46_Test"/>
+    </classes>
+  </test> <!-- SS_Electronics_50_To_55 -->
+</suite> <!-- SS_Electronics_50_To_55 -->

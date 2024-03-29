@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -17,7 +18,7 @@ public class BaseClass {
 	
 	@BeforeClass
 	public void launchApplication() {
-		webDriver=new ChromeDriver();
+		webDriver=new EdgeDriver();
 		webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 		webDriver.manage().window().maximize();
 		webDriver.get("https://www.shoppersstack.com");

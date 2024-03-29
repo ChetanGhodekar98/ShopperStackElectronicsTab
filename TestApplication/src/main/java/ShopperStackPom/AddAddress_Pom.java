@@ -39,7 +39,7 @@ public class AddAddress_Pom extends BasePage{
 	@FindBy(id="House/Office Info")
 	private WebElement HouseOfficeInfoTextField;
 	
-	@FindBy(xpath = "Street Info")
+	@FindBy(id = "Street Info")
 	private WebElement streetInfoTextField;
 	
 	@FindBy(id="Landmark")
@@ -56,4 +56,16 @@ public class AddAddress_Pom extends BasePage{
 	
 	@FindBy(id="Pincode")
 	private WebElement pincodeTextField;
+	
+	@FindBy(id="pincode-error")
+	private WebElement pincodeErrorMessage;
+	
+	@FindBy(id="Phone Number")
+	private WebElement phoneNumberTextField;
+	
+	@FindBy(id="addAddress")
+	private WebElement addAddressButton;
+	
+	@FindBy(id="5z938wu")
+	private WebElement addAddressAddedToasterMessage;
 }
